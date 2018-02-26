@@ -1,0 +1,16 @@
+
+
+<span style="color:red">{{error.message}}</span>
+<span>{{message}}</span>
+<form>
+	<div class="form-group">
+		Enter Email-Id <input type="email" id="email"
+			data-ng-model="user.email" class="form-control">
+	</div>
+	<div class="form-group">
+		Enter Password <input type="password" data-ng-model="user.password"
+			class="form-control">
+	</div>
+	<button type="submit" class="btn btn-primary btn-lg login button"
+		data-ng-click="login()">Login</button>
+</form>
